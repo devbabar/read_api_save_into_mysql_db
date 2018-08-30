@@ -42,3 +42,11 @@ Run $ python read_json_api.py from command line.
 ## End Result.
 
 ![](screenshots/result.png)
+
+# ------ Optional ---------
+To read data from json file instead from an api, use the following.
+
+### Method 3:
+with open('book_info.json') as f:
+
+  data = json.load(f)
